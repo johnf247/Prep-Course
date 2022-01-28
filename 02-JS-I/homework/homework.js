@@ -52,7 +52,7 @@ function multiplica(x, y) {
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  return x / y 
+  return x % y 
 }
 
 function sonIguales(x, y) {
@@ -101,7 +101,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return x / y;
+  return x % y;
 }
 
 function esPar(num) {
