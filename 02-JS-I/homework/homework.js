@@ -35,9 +35,8 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  
-}return x + y
-
+  return x + y
+}
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
@@ -79,20 +78,30 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  
-}
+  if (num < 90){
+    return true;
+  } 
+     else {
+       return false;
+     }
+  }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  if (num > 50){
+    return true;
+  }
+     else {
+       return false;
+     }
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  
+  return x / y;
 }
 
 function esPar(num) {
