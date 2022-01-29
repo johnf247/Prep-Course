@@ -120,7 +120,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 1 === 1) {
+  if (num % 2 === 1) {
     return true;
   }
   else {
@@ -150,6 +150,14 @@ function elevar(num, exponent) {
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
+  var resto = num % 1;
+  var entero = num - resto;
+  if (resto >= 0.5) {
+       return entero + 1;
+   } 
+   else {
+  return entero;
+  }
   return Math.round(num);
 }
 
@@ -173,7 +181,7 @@ function esPositivo(numero) {
   if (numero === 0) {
     return false;
   }
-  else if(numero > 0) {
+  else if(numero > 1) {
     return "es positivo";
   }
   else {
@@ -192,7 +200,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var combinar = "nomrbre " + "apellido";
+  var combinar = "nomrbre " + "" + "apellido";
   return combinar;
 }
 
