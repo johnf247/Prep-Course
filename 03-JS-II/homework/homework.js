@@ -21,9 +21,8 @@ function mayoriaDeEdad(edad) {
     return "Allowed";
   }
   else {
-    return "Not Allowed";
+    return "Not allowed";
   }
-
 }
   
 function conection(status) {
@@ -57,10 +56,10 @@ function saludo(idioma) {
     return "Ni Hao!";
   }
   else if (idioma === 'ingles') {
-    return "Hello";
+    return "Hello!";
   }
   else {
-    return "Hola";
+    return "Hola!";
   }
 }
 
